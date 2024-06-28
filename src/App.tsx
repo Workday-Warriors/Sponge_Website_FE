@@ -1,4 +1,4 @@
-import { About, Header, Hero } from "./components";
+import { About, Airdrop, Header, Hero, Tokenomics } from "./components";
 
 export const App = () => {
   return (
@@ -6,6 +6,8 @@ export const App = () => {
       <Header />
       <Hero />
       <About />
+      <Tokenomics />
+      <Airdrop />
     </div>
   );
 };
