@@ -1,6 +1,6 @@
 export const Airdrop = () => {
   return (
-    <section className="w-full h-[1308px] relative">
+    <section className="w-full min-h-screen xl:h-[1308px] relative">
       <div className="w-full flex flex-col  xl:flex-row h-full container">
         <div className=" w-full xl:w-1/2 h-full flex flex-col justify-center">
           <div className=" w-full xl:w-[462px] relative">
@@ -15,7 +15,6 @@ export const Airdrop = () => {
               </p>
             </div>
           </div>
-
           <div className=" w-full xl:w-[462px] relative">
             <img src="./shell.png" alt="" />
             <div className="absolute flex justify-center flex-col items-center pr-10 top-[40%] -translate-y-1/2">

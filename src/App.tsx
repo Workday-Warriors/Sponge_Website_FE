@@ -1,4 +1,11 @@
-import { About, Airdrop, Header, Hero, Tokenomics } from "./components";
+import {
+  About,
+  Airdrop,
+  Header,
+  Hero,
+  Presale,
+  Tokenomics,
+} from "./components";
 
 export const App = () => {
   return (
@@ -8,6 +15,7 @@ export const App = () => {
       <About />
       <Tokenomics />
       <Airdrop />
+      <Presale />
     </div>
   );
 };

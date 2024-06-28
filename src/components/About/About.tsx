@@ -17,7 +17,7 @@ export const About = () => {
               <h1 className=" text-[18px] lg:text-[40px] text-[#AF6D27] font-normal xl:leading-10 text-center luckiest">
                 About Sponge{" "}
               </h1>
-              <p className=" w-[60%] xl:w-auto leading-3 text-[8px] xl:text-[18px] mt-1 xl:mt-[10px] mb-[5px] text-[#263D6B]  font-normal xl:leading-[35px] text-center paytone">
+              <p className=" w-[60%] xl:w-auto leading-3 text-[8px] xl:text-[14px] mt-1 xl:mt-[10px] mb-[5px] text-[#263D6B]  font-normal xl:leading-[28px] text-center paytone">
                 The Tale of Sponge of Wallstreet on the Solana Blockchain
                 (Continuation) After Sponge creating, Sponge of Wallstreet
                 ($SWS), Sponge's life took an exciting turn. The coin's
