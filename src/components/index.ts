@@ -11,3 +11,6 @@ export { Faq } from "./Faq";
 export { Security } from "./Security";
 export { Contact } from "./Contact";
 export { Welcome } from "./Welcome";
+export { PresaleAbout } from "./PresaleAbout";
+export { Time } from "./Time";
+export { JoinNow } from "./JoinNow";
