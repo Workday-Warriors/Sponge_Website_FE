@@ -1,7 +1,6 @@
 import {
   About,
   Airdrop,
-  Contact,
   Faq,
   GeneralOverview,
   Hero,
@@ -25,6 +24,5 @@ export const Home = () => (
     <GeneralOverview />
     <Faq />
     <Security />
-    <Contact />
   </Layout>
 );

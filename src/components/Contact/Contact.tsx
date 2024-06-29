@@ -2,7 +2,7 @@ import { SOCIALMEDIAS } from "../../constants/social-medias";
 
 export const Contact = () => {
   return (
-    <section className="w-full bg-[#1E1E1E] pb-[25px] pt-[123px]">
+    <section className="w-full bg-[#1E1E1E] pb-[25px] pt-10 xl:pt-[123px]">
       <div className="container">
         <h1 className=" text-[28px] xl:text-7xl text-[#EEEEEE] luckiest font-normal leading-[72px] text-center">
           Contact Us
@@ -18,7 +18,7 @@ export const Contact = () => {
           {SOCIALMEDIAS.map((media) => (
             <a
               href={media.link}
-              className="w-[40.39px] footer_icon_hover hover:text-[#040F00] h-[40.39px] rounded-full border border-[#ffc700] text-[#FFCF24] hover:border-transparent flex justify-center items-center"
+              className="w-[40.39px] transition-all duration-500 footer_icon_hover hover:text-[#040F00] h-[40.39px] rounded-full border border-[#ffc700] text-[#FFCF24] hover:border-transparent flex justify-center items-center"
             >
               {media.icon}
             </a>

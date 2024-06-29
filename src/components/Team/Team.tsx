@@ -16,7 +16,7 @@ export const Team = () => {
         <h1 className=" text-[28px] xl:text-7xl font-normal xl:leading-[100px] text-left text-white luckiest">
           Team
         </h1>
-        <img src="./team.png" alt="" className="w-[901px]" />
+        <img data-aos="fade-up" src="./team.png" alt="" className="w-[901px]" />
       </div>
       <div
         className={`w-full h-[81px] ${styles.blur} absolute -bottom-5 `}
