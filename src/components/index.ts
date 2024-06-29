@@ -10,3 +10,4 @@ export { GeneralOverview } from "./GeneralOverview";
 export { Faq } from "./Faq";
 export { Security } from "./Security";
 export { Contact } from "./Contact";
+export { Welcome } from "./Welcome";

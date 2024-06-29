@@ -16,7 +16,7 @@ export const Accordion = ({ content, title }: Props) => {
       } border border-solid border-[#E8F4F1] rounded-md `}
       onClick={() => setOpen(!open)}
     >
-      <div className="flex h-full px-[29px] items-center justify-between ">
+      <div className="flex h-full px-3 xl:px-[29px] items-center justify-between ">
         <p
           className={` absolute  transition-all duration-300  pl-3 pr-6 ${
             open
@@ -29,7 +29,7 @@ export const Accordion = ({ content, title }: Props) => {
         <ArrowDown
           className={` transition-all duration-300 ${
             open ? "" : "-rotate-180 "
-          } text-[#E8F4F1] absolute right-[53px]`}
+          } text-[#E8F4F1] absolute right-4 xl:right-[53px]`}
         />
         {open && (
           <div className=" text-[14px] xl:text-base paytone text-[#E8F4F1] font-normal leading-6 text-left">

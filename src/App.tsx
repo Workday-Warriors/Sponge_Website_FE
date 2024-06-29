@@ -1,35 +1,11 @@
-import {
-  About,
-  Airdrop,
-  Contact,
-  Faq,
-  GeneralOverview,
-  Header,
-  Hero,
-  Presale,
-  Roadmap,
-  Security,
-  Team,
-  Tokenomics,
-} from "./components";
+import { Route, Routes } from "react-router-dom";
+import { Home, Presale } from "./pages";
 
 export const App = () => {
   return (
-    <div>
-      <Header />
-      <Hero />
-      <About />
-      <Tokenomics />
-      <Airdrop />
-      <Presale />
-      <Roadmap />
-      <Team />
-      <GeneralOverview />
-      <Faq />
-      <Security />
-      <Contact />
-      {/*  */}
-      {/* <Contact /> */}
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/presale" element={<Presale />} />
+    </Routes>
   );
 };

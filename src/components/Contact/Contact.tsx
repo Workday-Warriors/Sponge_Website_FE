@@ -7,7 +7,7 @@ export const Contact = () => {
         <h1 className=" text-[28px] xl:text-7xl text-[#EEEEEE] luckiest font-normal leading-[72px] text-center">
           Contact Us
         </h1>
-        <p className="text-lg mt-3 paytone font-normal text-[#EEEEEE] leading-6 text-center">
+        <p className=" text-base xl:text-lg mt-3 paytone font-normal text-[#EEEEEE] leading-6 text-center">
           Email us at{" "}
           <a href="#" className="text-[#F9C819]">
             support@sponge.io
@@ -25,7 +25,7 @@ export const Contact = () => {
           ))}
         </div>
         <div className="w-full h-[1px] footer_line" />
-        <p className="text-center text-base text-[#8C8B8B] font-normal leading-6  mt-[27px] paytone">
+        <p className="text-center text-xs xl:text-base text-[#8C8B8B] font-normal leading-6  mt-[27px] paytone">
           &copy; 2024 ALL RIGHT RESERVED sponge.io
         </p>
       </div>
