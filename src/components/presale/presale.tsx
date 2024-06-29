@@ -5,9 +5,7 @@ export const Presale = () => {
   return (
     <section className="w-full min-h-screen xl:h-[958px] relative">
       <div className="container flex-col-reverse xl:flex-row h-full flex px-8 xl:px-0">
-        <div className=" w-full xl:w-[40%] h-full flex items-center justify-start">
-          <img src="./presale-img.png" alt="" />
-        </div>
+        <div className=" hidden w-full xl:w-[40%] h-full xl:flex items-center justify-start"></div>
         <div className=" w-full xl:w-[60%] h-full flex items-center">
           <div
             className={`${styles.wood_card} pb-[160px]   pt-[160px] xl:pt-[208px] flex flex-col items-center w-full xl:pb-[201px] pl-[80px] pr-[80px] xl:pl-[134px] xl:pr-[140px]`}
@@ -34,9 +32,14 @@ export const Presale = () => {
         alt=""
         className="absolute top-0 left-0 w-full h-full z-[-1] object-cover xl:object-fill"
       />
-      {/* <div
-        className={`${styles.blur} z-10 h-[70px] xl:h-[158px] absolute -bottom-14 `}
-      ></div> */}
+      <div
+        className={`${styles.blur} z-10 h-[70px] xl:h-[110px] absolute -bottom-14 `}
+      ></div>
+      <img
+        src="./presale-line.png"
+        alt=""
+        className="absolute -bottom-11 z-10"
+      />
     </section>
   );
 };

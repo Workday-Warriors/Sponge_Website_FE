@@ -1,3 +1,4 @@
+import styles from "./airdrop.module.css";
 export const Airdrop = () => {
   return (
     <section className="w-full min-h-screen xl:h-[1308px] relative">
@@ -38,6 +39,9 @@ export const Airdrop = () => {
         alt=""
         className="z-[-1] w-full h-full absolute top-0  object-cover xl:object-fill"
       />
+      <div
+        className={`w-full h-[110px] absolute -bottom-10 ${styles.blur}`}
+      ></div>
     </section>
   );
 };

@@ -1,6 +1,8 @@
 import {
   About,
   Airdrop,
+  Faq,
+  GeneralOverview,
   Header,
   Hero,
   Presale,
@@ -20,6 +22,8 @@ export const App = () => {
       <Presale />
       <Roadmap />
       <Team />
+      <GeneralOverview />
+      <Faq />
     </div>
   );
 };

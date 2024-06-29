@@ -7,10 +7,10 @@
 
 .blur {
   width: 100%;
-  filter: blur(18.6px);
+  filter: blur(15.6px);
   background: linear-gradient(
-    180deg,
-    rgb(232, 203, 150) 50%,
-    rgb(42, 193, 221) 72.458%
+    rgba(122, 121, 109, 0.7) -14.95%,
+    #4d5454 44.58%,
+    #041a2b 83.44%
   );
 }
