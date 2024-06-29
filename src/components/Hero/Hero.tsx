@@ -31,7 +31,7 @@ export const Hero = () => {
         <div className='hidden xl:inline-block w-1/2 h-full'></div>
       </div>
       <div
-        className={`${styles.blur} h-[70px] xl:h-[158px] absolute -bottom-14 `}
+        className={`${styles.blur} z-10 h-[70px] xl:h-[158px] absolute -bottom-14 `}
       ></div>
     </section>
   )

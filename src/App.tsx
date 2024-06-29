@@ -4,6 +4,8 @@ import {
   Header,
   Hero,
   Presale,
+  Roadmap,
+  Team,
   Tokenomics,
 } from "./components";
 
@@ -16,6 +18,8 @@ export const App = () => {
       <Tokenomics />
       <Airdrop />
       <Presale />
+      <Roadmap />
+      <Team />
     </div>
   );
 };
