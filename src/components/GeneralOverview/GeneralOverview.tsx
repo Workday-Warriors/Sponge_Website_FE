@@ -17,10 +17,10 @@ export const GeneralOverview = () => {
             className={`h-[614px] relative w-[80%] xl:w-[798px] ${styles.bg} `}
           >
             <div className="absolute top-[40%] left-[48%] -translate-x-1/2 w-full flex justify-center flex-col items-center  -translate-y-1/2">
-              <p className=" text-[15px] md:text-[24px] xl:text-[28px] w-[70%] xl:w-[50%] font-normal xl:leading-[38.83px] paytone tracking-[-0.02em] text-center">
+              <p className=" text-[8px] md:text-[24px] xl:text-[28px] w-[70%] xl:w-[50%] font-normal xl:leading-[38.83px] paytone tracking-[-0.02em] text-center">
                 Hiya, pals! Welcome to my pineapple under the sea!
               </p>
-              <p className=" text-[15px] md:text-[25px] w-[70%] xl:w-[60%] xl:text-[25px] my-[13px] text-white font-normal paytone xl:leading-[32.23px] tracking-[-0.03em] text-center">
+              <p className=" text-[8px] md:text-[10px] w-[70%] xl:w-[60%] xl:text-[25px] my-[13px] text-white font-normal paytone xl:leading-[32.23px] tracking-[-0.03em] text-center">
                 I’m Spongebob, here to give you a cheerful overview of our
                 fantastic memecoin project.
               </p>
@@ -34,6 +34,9 @@ export const GeneralOverview = () => {
           </div>
         </div>
       </div>
+      <div
+        className={`w-full h-[68px] absolute -bottom-10 ${styles.blur} `}
+      ></div>
     </section>
   );
 };

@@ -1,12 +1,14 @@
 import {
   About,
   Airdrop,
+  Contact,
   Faq,
   GeneralOverview,
   Header,
   Hero,
   Presale,
   Roadmap,
+  Security,
   Team,
   Tokenomics,
 } from "./components";
@@ -24,6 +26,10 @@ export const App = () => {
       <Team />
       <GeneralOverview />
       <Faq />
+      <Security />
+      <Contact />
+      {/*  */}
+      {/* <Contact /> */}
     </div>
   );
 };
