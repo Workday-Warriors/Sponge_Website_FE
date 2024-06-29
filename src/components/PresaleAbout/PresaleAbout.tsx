@@ -10,7 +10,7 @@ export const PresaleAbout = () => {
         className=" absolute top-0  z-[-1] w-full h-full object-fill"
       />
       <div className="w-full gap-x-[23px] pb-10 xl:pb-0 pt-10 gap-y-4 xl:gap-y-0 h-full container px-8 xl:px-0 flex xl:flex-row flex-col">
-        <div className=" w-full xl:w-1/2 h-full">
+        <div data-aos="zoom-in" className=" w-full xl:w-1/2 h-full">
           <div
             className={` flex items-center flex-col justify-center w-full h-full ${styles.card}`}
           >
@@ -31,7 +31,10 @@ export const PresaleAbout = () => {
         </div>
         <div className=" w-full xl:w-1/2 h-full flex items-center ">
           <div className="flex flex-col xl:flex-row flex-wrap justify-around gap-x-[26px] gap-y-[29px]">
-            <div className=" w-full xl:w-[45%] py-[25px] px-[32px] flex flex-col justify-center items-center rounded-[27px] bg-[#F3D583]">
+            <div
+              data-aos="flip-up"
+              className=" w-full xl:w-[45%] py-[25px] px-[32px] flex flex-col justify-center items-center rounded-[27px] bg-[#F3D583]"
+            >
               <Button
                 className="luckiest text-[8px] md:!text-[10px]  xl:!text-xl !px-5 !pt-1 !pb-2 xl:!px-[29px] xl:!pt-[14px] xl:!pb-[19px] !font-[600] !bg-[#070707] !text-[#C57E33]"
                 borderColor="#FEBA00"
@@ -43,7 +46,10 @@ export const PresaleAbout = () => {
                 solana_wallet_address.
               </p>
             </div>
-            <div className="w-full xl:w-[45%] py-[25px] px-[32px] flex flex-col justify-center items-center rounded-[27px] bg-[#F3D583]">
+            <div
+              data-aos="flip-up"
+              className="w-full xl:w-[45%] py-[25px] px-[32px] flex flex-col justify-center items-center rounded-[27px] bg-[#F3D583]"
+            >
               <Button
                 className="luckiest text-[8px] md:!text-[10px]  xl:!text-xl !px-5 !pt-1 !pb-2 xl:!px-[29px] xl:!pt-[14px] xl:!pb-[19px] !font-[600] !bg-[#070707] !text-[#C57E33]"
                 borderColor="#FEBA00"
@@ -55,7 +61,10 @@ export const PresaleAbout = () => {
                 presale.
               </p>
             </div>
-            <div className="w-full xl:w-[45%] py-[25px] px-[32px] flex flex-col justify-center items-center rounded-[27px] bg-[#F3D583]">
+            <div
+              data-aos="flip-up"
+              className="w-full xl:w-[45%] py-[25px] px-[32px] flex flex-col justify-center items-center rounded-[27px] bg-[#F3D583]"
+            >
               <Button
                 className="luckiest text-[8px] md:!text-[10px]  xl:!text-xl !px-5 !pt-1 !pb-2 xl:!px-[29px] xl:!pt-[14px] xl:!pb-[19px] !font-[600] !bg-[#070707] !text-[#C57E33]"
                 borderColor="#FEBA00"

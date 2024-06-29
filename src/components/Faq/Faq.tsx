@@ -15,7 +15,10 @@ export const Faq = () => {
           alt=""
           className=" w-full xl:w-[30%]"
         />
-        <div className=" w-full xl:w-[70%] pt-5 pb-5 xl:pt-[27px] xl:pb-[46px] pl-4 xl:pl-[48px] pr-4 xl:pr-[54px] bg-[#005B81] rounded-xl xl:rounded-[38px]">
+        <div
+          data-aos="fade-up"
+          className=" w-full xl:w-[70%] pt-5 pb-5 xl:pt-[27px] xl:pb-[46px] pl-4 xl:pl-[48px] pr-4 xl:pr-[54px] bg-[#005B81] rounded-xl xl:rounded-[38px]"
+        >
           <h1 className=" text-[28px] xl:text-7xl text-center luckiest font-normal leading-[77px] text-[#D9D9D9]">
             F.A.Q
           </h1>

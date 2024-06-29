@@ -3,7 +3,7 @@ import { BuyIcon } from "../../icons";
 import styles from "./Hero.module.css";
 export const Hero = () => {
   return (
-    <section className={`min-h-screen xl:h-[1080px]  relative `}>
+    <section id="home" className={`min-h-screen xl:h-[1080px]  relative `}>
       <div className="w-full container px-8 xl:px-0 flex h-full">
         <div className=" w-full xl:w-1/2 h-full flex flex-col justify-center items-start">
           <h1

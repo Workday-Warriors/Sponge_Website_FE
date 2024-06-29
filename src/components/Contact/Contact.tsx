@@ -2,7 +2,10 @@ import { SOCIALMEDIAS } from "../../constants/social-medias";
 
 export const Contact = () => {
   return (
-    <section className="w-full bg-[#1E1E1E] pb-[25px] pt-10 xl:pt-[123px]">
+    <section
+      id="contact"
+      className="w-full bg-[#1E1E1E] pb-[25px] pt-10 xl:pt-[123px]"
+    >
       <div className="container">
         <h1 className=" text-[28px] xl:text-7xl text-[#EEEEEE] luckiest font-normal leading-[72px] text-center">
           Contact Us

@@ -33,6 +33,7 @@ export const Header = () => {
             {LINKS.map((link, index) => (
               <li key={index}>
                 <a
+                  onClick={() => setOpen(false)}
                   href={link.path}
                   className="text-lg transition-all duration-300 hover:text-[#F3D583] paytone text-white font-normal leading-[25.13px]"
                 >

@@ -10,14 +10,17 @@ export const Time = () => {
         className="absolute top-0 z-[-1] left-0 object-cover xl:object-fill w-full h-full"
       />
       <div className="w-full pb-10 px-8 xl:px-0 container flex xl:flex-row flex-col h-full">
-        <div className=" w-full xl:w-1/2 h-full relative">
+        <div data-aos="fade-right" className=" w-full xl:w-1/2 h-full relative">
           <img
             src="./presale-person.png"
             alt=""
             className=" static xl:absolute -bottom-0 h-[600px] w-[400px] left-40"
           />
         </div>
-        <div className=" w-full xl:w-1/2 h-full flex items-center justify-center">
+        <div
+          data-aos="zoom-in"
+          className=" w-full xl:w-1/2 h-full flex items-center justify-center"
+        >
           <div className="bg-[#F9D68F] w-full flex flex-col items-center rounded-[40px] pb-[24px] pt-[42px]">
             <img
               src="./time-avatar.png"

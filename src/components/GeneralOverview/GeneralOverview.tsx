@@ -16,10 +16,10 @@ export const GeneralOverview = () => {
           <div
             className={`h-[614px] pb-20 flex items-center justify-center flex-col relative w-[80%] xl:w-[798px] ${styles.bg} `}
           >
-            <p className="text-[20px] w-[50%] font-normal paytone leading-[23.83px] tracking-[-0.02em] text-center">
+            <p className=" text-[10px] xl:text-[20px] w-[40%] xl:w-[50%] font-normal paytone xl:leading-[23.83px] tracking-[-0.02em] text-center">
               Hiya, pals! Welcome to my pineapple under the sea!
             </p>
-            <p className="text-[20px] my-[13px] text-[#FFFFFF] w-[55%] paytone font-normal leading-[25.23px] tracking-[-0.03em] text-center">
+            <p className=" text-[10px] xl:text-[20px] my-[13px] text-[#FFFFFF] w-[55%] paytone font-normal xl:leading-[25.23px] tracking-[-0.03em] text-center">
               I’m Spongebob, here to give you a cheerful overview of our
               fantastic memecoin project.
             </p>

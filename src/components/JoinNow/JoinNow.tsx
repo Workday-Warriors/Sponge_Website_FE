@@ -4,11 +4,15 @@ import styles from "./JoinNow.module.css";
 export const JoinNow = () => {
   return (
     <section className="w-full pt-20 bg-[#1E1E1E]">
-      <h1 className=" text-[28px] xl:text-[65px] luckiest text-white font-normal leading-[65px] text-center">
+      <h1
+        data-aos="zoom-in"
+        className=" text-[28px] xl:text-[65px] luckiest text-white font-normal leading-[65px] text-center"
+      >
         How to Join the Presale
       </h1>
       <div className="w-full flex justify-center">
         <div
+          data-aos="fade-up"
           className={`${styles.card} flex justify-center items-center flex-col w-[1107px] h-[500px] xl:h-[853px] `}
         >
           <h1 className="text-[#AF6D27] text-[28px] xl:text-[40px] font-normal leading-10 text-center luckiest">
