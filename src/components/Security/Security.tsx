@@ -7,7 +7,7 @@ export const Security = () => {
       <img
         src="/security.png"
         alt=""
-        className="w-full absolute top-0 left-0  z-[-1] h-full object-fill"
+        className="w-full absolute top-0 left-0  z-[-1] h-full object-cover xl:object-fill"
       />
       <div className="container px-8 xl:px-0 flex h-full flex-col justify-end pb-[137px]">
         <h1
@@ -37,7 +37,7 @@ export const Security = () => {
 
             <div className="absolute -bottom-4 xl:-bottom-8 left-1/2 -translate-x-1/2">
               <Button
-                className="montserrat text-[8px] md:!text-[10px]  xl:!text-xl !px-5 !pt-1 !pb-2 xl:!px-[29px] xl:!pt-[14px] xl:!pb-[19px] !font-[600] !bg-[#070707] !text-white"
+                className="montserrat text-[8px] md:!text-[10px]  xl:!text-[18px] !px-5 !pt-1 !pb-2 xl:!px-[29px] xl:!pt-[14px] xl:!pb-[19px] !font-[600] !bg-[#070707] !text-white"
                 borderColor="#F3D583"
               >
                 LEARN MORE
@@ -58,7 +58,7 @@ export const Security = () => {
 
             <div className="absolute -bottom-4 xl:-bottom-8 left-1/2 -translate-x-1/2">
               <Button
-                className="montserrat text-[8px] md:!text-[10px]  xl:!text-xl !px-5 !pt-1 !pb-2 xl:!px-[29px] xl:!pt-[14px] xl:!pb-[19px] !font-[600] !bg-[#070707] !text-white"
+                className="montserrat text-[8px] md:!text-[10px]  xl:!text-[18px] !px-5 !pt-1 !pb-2 xl:!px-[29px] xl:!pt-[14px] xl:!pb-[19px] !font-[600] !bg-[#070707] !text-white"
                 borderColor="#F3D583"
               >
                 LEARN MORE
@@ -80,7 +80,7 @@ export const Security = () => {
 
             <div className="absolute -bottom-4 xl:-bottom-8 left-1/2 -translate-x-1/2">
               <Button
-                className="montserrat text-[8px] md:!text-[10px]  xl:!text-xl !px-5 !pt-1 !pb-2 xl:!px-[29px] xl:!pt-[14px] xl:!pb-[19px] !font-[600] !bg-[#070707] !text-white"
+                className="montserrat text-[8px] md:!text-[10px]  xl:!text-[18px] !px-5 !pt-1 !pb-2 xl:!px-[29px] xl:!pt-[14px] xl:!pb-[19px] !font-[600] !bg-[#070707] !text-white"
                 borderColor="#F3D583"
               >
                 LEARN MORE

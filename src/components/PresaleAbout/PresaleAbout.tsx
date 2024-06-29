@@ -7,7 +7,7 @@ export const PresaleAbout = () => {
       <img
         src="./presale-about-bg.png"
         alt=""
-        className=" absolute top-0  z-[-1] w-full h-full object-fill"
+        className=" absolute top-0  z-[-1] w-full h-full object-cover xl:object-fill"
       />
       <div className="w-full gap-x-[23px] pb-10 xl:pb-0 pt-10 gap-y-4 xl:gap-y-0 h-full container px-8 xl:px-0 flex xl:flex-row flex-col">
         <div data-aos="zoom-in" className=" w-full xl:w-1/2 h-full">

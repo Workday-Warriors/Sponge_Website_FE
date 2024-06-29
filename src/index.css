@@ -63,3 +63,11 @@ body {
 html {
   scroll-behavior: smooth !important;
 }
+
+body {
+  overflow-x: hidden;
+}
+
+#root {
+  overflow-x: hidden;
+}

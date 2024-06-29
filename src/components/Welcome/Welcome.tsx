@@ -20,7 +20,7 @@ export const Welcome = () => {
         ></div>
       </div>
       <div
-        className={`${styles.blur} w-full h-[70px] xl:h-[158px] absolute -bottom-10 `}
+        className={`${styles.blur} w-full h-[100px] xl:h-[158px] absolute -bottom-10 `}
       ></div>
     </section>
   );

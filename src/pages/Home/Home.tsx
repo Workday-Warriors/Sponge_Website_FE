@@ -18,6 +18,7 @@ export const Home = () => (
     <About />
     <Tokenomics />
     <Airdrop />
+    <Airdrop />
     <Presale />
     <Roadmap />
     <Team />

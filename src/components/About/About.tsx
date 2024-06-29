@@ -9,7 +9,7 @@ export const About = () => {
           src="./about-bg.png"
           className="absolute top-0 z-[-1] left-0 w-full h-full object-cover xl:object-fill"
         />
-        <div className="w-full flex-col xl:flex-row flex h-full pb-60 items-center gap-x-[20px] px-8 xl:px-0  container">
+        <div className="w-full flex-col xl:flex-row flex h-full pt-0 xl:pt-32 pb-0 xl:pb-72 items-center gap-x-[20px] px-8 xl:px-0  container">
           <div className="w-full xl:w-[60%]">
             <div
               data-aos="zoom-in"
@@ -54,7 +54,7 @@ export const About = () => {
         </div>
       </div>
       <div
-        className={`${styles.blur} h-[70px] xl:h-[310px] absolute -bottom-8 `}
+        className={`${styles.blur} h-[200px] xl:h-[510px] absolute bottom-[-100px] xl:-bottom-[400px] `}
       ></div>
     </section>
   );

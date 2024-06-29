@@ -6,7 +6,7 @@ export const GeneralOverview = () => {
       <img
         src="./general-overview.png"
         alt=""
-        className="w-full h-full  object-fill absolute top-0 left-0 z-[-1]"
+        className="w-full h-full object-cover xl:object-fill absolute top-0 left-0 z-[-1]"
       />
       <div className="w-full flex flex-col xl:flex-row items-end h-full container px-8 xl:px-0 ">
         <div className=" w-full xl:w-1/2 h-full flex items-end pb-10">

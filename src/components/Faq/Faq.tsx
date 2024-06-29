@@ -6,7 +6,7 @@ export const Faq = () => {
       <img
         src="./faq-bg.png"
         alt=""
-        className="absolute w-full h-full z-[-1] top-0 left-0 object-fill"
+        className="absolute w-full h-full z-[-1] top-0 left-0 object-cover xl:object-fill"
       />
       <div className="w-full container px-8 pt-44 xl:pt-0  xl:px-0 flex items-end h-full flex-col-reverse xl:flex-row pb-[50px]">
         <img

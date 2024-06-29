@@ -33,7 +33,7 @@ export const Roadmap = () => {
       <img
         src="./roadmap-bg.png"
         alt=""
-        className="absolute top-0 left-0 w-full h-full object-fill z-[-1]"
+        className="absolute top-0 left-0 w-full h-full object-cover xl:object-fill z-[-1]"
       />
       <div className="absolute top-0 z-30 left-1/2 -translate-x-1/2">
         <img
