@@ -44,7 +44,7 @@ export const Roadmap = () => {
       {
         opacity: 1,
         scale: 1,
-        duration: 2,
+        duration: 1.5,
         scrollTrigger: {
           trigger: welcome.current,
         },
@@ -53,11 +53,11 @@ export const Roadmap = () => {
 
     gsap.fromTo(
       textContent.current,
-      { opacity: 0, y: 100 },
+      { opacity: 0, y: 50 },
       {
         opacity: 1,
         y: 0,
-        duration: 2,
+        duration: 1.5,
         scrollTrigger: {
           trigger: textContent.current,
         },
@@ -66,11 +66,11 @@ export const Roadmap = () => {
 
     gsap.fromTo(
       person.current,
-      { opacity: 0, x: -100 },
+      { opacity: 0, x: -50 },
       {
         opacity: 1,
         x: 0,
-        duration: 4,
+        duration: 1.5,
         scrollTrigger: {
           trigger: person.current,
         },

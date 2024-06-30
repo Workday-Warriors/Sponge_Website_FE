@@ -15,7 +15,7 @@ export const Presale = () => {
       { opacity: 0 },
       {
         opacity: 1,
-        duration: 3,
+        duration: 1.5,
         scrollTrigger: {
           trigger: card.current,
         },
@@ -24,11 +24,11 @@ export const Presale = () => {
 
     gsap.fromTo(
       person.current,
-      { opacity: 0, x: -100 },
+      { opacity: 0, x: -50 },
       {
         opacity: 1,
         x: 0,
-        duration: 3,
+        duration: 1.5,
         scrollTrigger: {
           trigger: person.current,
         },
@@ -58,7 +58,7 @@ export const Presale = () => {
               coins!
             </p>
             <Button
-              className="montserrat text-[8px] hover:!text-[#070707] hover:!bg-white md:!text-[10px]  xl:!text-xl !px-5 !pt-1 !pb-2 xl:!px-[29px] xl:!pt-[14px] xl:!pb-[19px] !font-[600] !bg-[#070707] !text-white"
+              className="montserrat transition-all duration-500 text-[8px] hover:!text-[#070707] hover:!bg-white md:!text-[10px]  xl:!text-xl !px-5 !pt-1 !pb-2 xl:!px-[29px] xl:!pt-[14px] xl:!pb-[19px] !font-[600] !bg-[#070707] !text-white"
               borderColor="#F3D583"
             >
               JOIN NOW

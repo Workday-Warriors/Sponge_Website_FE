@@ -12,10 +12,10 @@ export const GeneralOverview = () => {
   useEffect(() => {
     gsap.fromTo(
       person.current,
-      { x: -100 },
+      { x: -50 },
       {
         x: 0,
-        duration: 2,
+        duration: 1.5,
         scrollTrigger: {
           trigger: person.current,
         },
@@ -28,7 +28,7 @@ export const GeneralOverview = () => {
       {
         x: 0,
         opacity: 1,
-        duration: 3,
+        duration: 1.5,
         scrollTrigger: {
           trigger: card.current,
         },

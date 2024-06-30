@@ -12,11 +12,11 @@ export const Time = () => {
   useEffect(() => {
     gsap.fromTo(
       time.current,
-      { opacity: 0, y: 100 },
+      { opacity: 0, y: 50 },
       {
         opacity: 1,
         y: 0,
-        duration: 2,
+        duration: 1.5,
         scrollTrigger: {
           trigger: time.current,
         },
@@ -25,11 +25,11 @@ export const Time = () => {
 
     gsap.fromTo(
       person.current,
-      { opacity: 0, x: -100 },
+      { opacity: 0, x: -50 },
       {
         opacity: 1,
         x: 0,
-        duration: 2,
+        duration: 1.5,
         scrollTrigger: {
           trigger: person.current,
         },

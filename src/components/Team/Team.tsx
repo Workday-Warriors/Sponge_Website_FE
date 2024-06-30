@@ -6,7 +6,6 @@ gsap.registerPlugin(ScrollTrigger);
 
 export const Team = () => {
   const person = useRef<HTMLDivElement>(null);
-
   const team = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -15,7 +14,7 @@ export const Team = () => {
       { opacity: 0 },
       {
         opacity: 1,
-        duration: 3,
+        duration: 1.5,
         scrollTrigger: {
           trigger: person.current,
         },
@@ -28,7 +27,7 @@ export const Team = () => {
       {
         opacity: 1,
         y: 0,
-        duration: 3,
+        duration: 1.5,
         scrollTrigger: {
           trigger: team.current,
         },
@@ -45,7 +44,7 @@ export const Team = () => {
       />
       <div
         ref={person}
-        className="absolute w-[500px] md:w-[500px] xl:w-auto top-[-250px] md:top-[-150px]  xl:top-[-450px] -translate-x-1/2 left-[43%] "
+        className="absolute w-[500px] top-[-270px] md:top-[-170px] xl:top-[-150px] left-[38%] xl:left-[43%] -translate-x-1/2 "
       >
         <img src="./team-img-1.png" alt="" className="w-full h-full" />
       </div>

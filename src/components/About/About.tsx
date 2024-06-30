@@ -17,7 +17,7 @@ export const About = () => {
       {
         opacity: 1,
         y: 0,
-        duration: 4,
+        duration: 1.5,
         scrollTrigger: {
           trigger: container.current,
         },
@@ -26,11 +26,11 @@ export const About = () => {
 
     gsap.fromTo(
       aboutVideo.current,
-      { opacity: 0, y: 100 },
+      { opacity: 0, y: 50 },
       {
         opacity: 1,
         y: 0,
-        duration: 2,
+        duration: 1.5,
         scrollTrigger: {
           trigger: aboutVideo.current,
         },
@@ -42,7 +42,7 @@ export const About = () => {
     <section id="about" className="w-full relative min-h-screen xl:h-[1017px]">
       <div className="w-full relative h-full">
         <img
-          src="./about-bg.png"
+          src="./about-bg.jpg"
           className="absolute top-0 z-[-1] left-0 w-full h-full object-cover xl:object-fill"
         />
         <div className="w-full flex-col xl:flex-row flex h-full pt-0 xl:pt-32 pb-0 xl:pb-96 items-center gap-x-[20px] px-5 xl:px-0  container">
@@ -64,7 +64,7 @@ export const About = () => {
                 only underwater but also on the real Wall Street.{" "}
               </p>
               <Button
-                className="montserrat text-[8px] md:!text-[10px]  xl:!text-xl !px-5 !pt-1 !pb-2 xl:!px-[29px] xl:!pt-[14px] xl:!pb-[19px] !font-[600] !bg-[#070707] hover:!text-[#070707] hover:!bg-white !text-white"
+                className="montserrat transition-all duration-500 text-[8px] md:!text-[10px]  xl:!text-xl !px-5 !pt-1 !pb-2 xl:!px-[29px] xl:!pt-[14px] xl:!pb-[19px] !font-[600] !bg-[#070707] hover:!text-[#070707] hover:!bg-white !text-white"
                 borderColor="#F3D583"
               >
                 LEARN MORE

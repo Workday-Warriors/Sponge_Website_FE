@@ -15,7 +15,7 @@ export const Faq = () => {
       { x: -50 },
       {
         x: 0,
-        duration: 2,
+        duration: 1.5,
         scrollTrigger: {
           trigger: person.current,
         },
@@ -28,7 +28,7 @@ export const Faq = () => {
       {
         y: 0,
         opacity: 1,
-        duration: 3,
+        duration: 1.5,
         scrollTrigger: {
           trigger: card.current,
         },

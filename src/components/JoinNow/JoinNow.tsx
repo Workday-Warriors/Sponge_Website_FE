@@ -17,7 +17,7 @@ export const JoinNow = () => {
       {
         opacity: 1,
         scale: 1,
-        duration: 2,
+        duration: 1.5,
         scrollTrigger: {
           trigger: joinNow.current,
         },
@@ -26,11 +26,11 @@ export const JoinNow = () => {
 
     gsap.fromTo(
       card.current,
-      { opacity: 0, y: 100 },
+      { opacity: 0, y: 50 },
       {
         y: 0,
         opacity: 1,
-        duration: 1,
+        duration: 1.5,
         scrollTrigger: {
           trigger: card.current,
         },

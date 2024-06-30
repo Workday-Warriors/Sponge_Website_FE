@@ -13,11 +13,11 @@ export const Airdrop = () => {
   useEffect(() => {
     gsap.fromTo(
       shell1.current,
-      { opacity: 0, rotateX: 90 },
+      { opacity: 0, rotateX: 50 },
       {
         opacity: 1,
         rotateX: 0,
-        duration: 2,
+        duration: 1.5,
         scrollTrigger: {
           trigger: shell1.current,
         },
@@ -26,11 +26,11 @@ export const Airdrop = () => {
 
     gsap.fromTo(
       shell2.current,
-      { opacity: 0, rotateX: 90 },
+      { opacity: 0, rotateX: 50 },
       {
         opacity: 1,
         rotateX: 0,
-        duration: 2,
+        duration: 1.5,
         scrollTrigger: {
           trigger: shell2.current,
         },
@@ -39,11 +39,11 @@ export const Airdrop = () => {
 
     gsap.fromTo(
       person.current,
-      { opacity: 0, x: 100 },
+      { opacity: 0, x: 50 },
       {
         opacity: 1,
         x: 0,
-        duration: 4,
+        duration: 1.5,
         scrollTrigger: {
           trigger: person.current,
         },

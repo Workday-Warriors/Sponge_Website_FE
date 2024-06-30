@@ -16,11 +16,11 @@ export const UserItem = ({
   useEffect(() => {
     gsap.fromTo(
       container.current,
-      { opacity: 0, y: 100 },
+      { opacity: 0, y: 50 },
       {
         opacity: 1,
         y: 0,
-        duration: 4,
+        duration: 1.5,
         scrollTrigger: {
           trigger: container.current,
         },

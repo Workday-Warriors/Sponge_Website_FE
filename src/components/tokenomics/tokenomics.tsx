@@ -19,7 +19,7 @@ export const Tokenomics = () => {
       {
         opacity: 1,
         scale: 1,
-        duration: 2,
+        duration: 1.5,
         scrollTrigger: {
           trigger: welcome.current,
         },
@@ -32,7 +32,7 @@ export const Tokenomics = () => {
       {
         opacity: 1,
         y: 0,
-        duration: 2,
+        duration: 1.5,
         scrollTrigger: {
           trigger: textContent.current,
         },
@@ -45,7 +45,7 @@ export const Tokenomics = () => {
       {
         opacity: 1,
         y: 0,
-        duration: 4,
+        duration: 1.5,
         scrollTrigger: {
           trigger: tokenomics.current,
         },
@@ -58,7 +58,7 @@ export const Tokenomics = () => {
       {
         opacity: 1,
         x: 0,
-        duration: 4,
+        duration: 1.5,
         scrollTrigger: {
           trigger: tokenGirl.current,
         },
