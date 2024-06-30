@@ -87,9 +87,9 @@ export const Roadmap = () => {
       />
       <div
         ref={welcome}
-        className="absolute top-0 z-30 left-1/2 -translate-x-1/2"
+        className="absolute w-full xl:w-auto -top-20 md:-top-44 xl:top-0 z-30 left-1/2 -translate-x-1/2"
       >
-        <img src="./welcome.png" alt="" className="w-[750px] xl:w-[576px] " />
+        <img src="./welcome.png" alt="" className="w-full xl:w-[576px] " />
       </div>
       <div className="absolute w-full h-[1656px]  xl:overflow-x-hidden top-1/2 -translate-y-1/2 left-0 ">
         <div className="w-full px-8  xl:px-0 h-full mt-10 xl:mt-0 relative">
@@ -131,7 +131,7 @@ export const Roadmap = () => {
         ref={textContent}
         className="container px-5 xl:px-0 pt-32 xl:pt-[240px]"
       >
-        <h1 className=" text-[23px] xl:text-7xl text-[#D9D9D9] luckiest font-normal xl:leading-[100px] text-left">
+        <h1 className="text-[23px] xl:text-7xl text-[#D9D9D9] luckiest font-normal xl:leading-[100px] text-left">
           OUR ROAD MAP
         </h1>
         <p className=" text-[14px] xl:text-lg w-full xl:w-[60%] paytone text-[#F3D583] font-normal xl:leading-[30px] text-left">

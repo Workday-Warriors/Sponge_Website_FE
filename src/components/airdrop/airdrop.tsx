@@ -43,7 +43,7 @@ export const Airdrop = () => {
       {
         opacity: 1,
         x: 0,
-        duration: 1,
+        duration: 4,
         scrollTrigger: {
           trigger: person.current,
         },

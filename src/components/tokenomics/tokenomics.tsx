@@ -102,12 +102,12 @@ export const Tokenomics = () => {
         </div>
         <div
           ref={tokenGirl}
-          className="w-[900px] md:w-[900px] xl:w-1/2 relative pt-16 xl:pt-0 flex items-center h-auto: xl:h-full "
+          className="w-[400px] md:w-[900px] xl:w-1/2 relative pt-16 xl:pt-0 flex items-center h-auto: xl:h-full "
         >
           <img
             src="./total-girl.png"
             alt=""
-            className=" translate-x-[-140px] md:translate-x-[-140px] xl:translate-x-0  w-full xl:w-auto"
+            className=" translate-x-[0px] md:translate-x-[-140px] xl:translate-x-0  w-full xl:w-auto"
           />
         </div>
       </div>
@@ -118,12 +118,12 @@ export const Tokenomics = () => {
       />
       <div
         ref={welcome}
-        className="absolute top-[-50px] xl:-top-[280px] left-1/2 -translate-x-1/2 z-10 "
+        className="absolute w-full md:w-auto top-[-50px] xl:-top-[280px] left-1/2 -translate-x-1/2 z-10 "
       >
         <img
           id="welcome"
           src="./welcome.png"
-          className=" w-[850px] xl:w-[622px] "
+          className="w-[850px] xl:w-[622px] "
         />
       </div>
       <div
