@@ -66,7 +66,7 @@ export const GeneralOverview = () => {
             </p>
 
             <Button
-              className="montserrat !text-[8px] md:!text-[10px]  xl:!text-[18px] !px-5 !pt-1 !pb-2 xl:!px-[29px] xl:!pt-[14px] xl:!pb-[19px] !font-[600] !bg-[#070707] !text-white"
+              className="montserrat transition-all duration-500 hover:!text-[#070707] hover:!bg-white !text-[8px] md:!text-[10px]  xl:!text-[18px] !px-5 !pt-1 !pb-2 xl:!px-[29px] xl:!pt-[14px] xl:!pb-[19px] !font-[600] !bg-[#070707] !text-white"
               borderColor="#F3D583"
             >
               MORE INFO
