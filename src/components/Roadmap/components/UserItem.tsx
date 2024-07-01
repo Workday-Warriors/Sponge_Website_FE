@@ -57,7 +57,7 @@ export const UserItem = ({
             {userName}
           </p>
         </div>
-        <div className='pt-5'>
+        <div className='pt-5 w-[50%]'>
           {lists.map((list: string, index: number) => (
             <p
               key={index}

@@ -189,7 +189,7 @@ export const Time = () => {
         </div>
       </div>
       <div
-        className={`${styles.blur} w-full h-[70px] xl:h-[113px] absolute -bottom-10 `}
+        className={`${styles.blur} w-[150%] translate-x-[-20%] h-[70px] xl:h-[113px] absolute -bottom-10 `}
       ></div>
     </section>
   );

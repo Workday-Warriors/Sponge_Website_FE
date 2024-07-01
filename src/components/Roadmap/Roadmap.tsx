@@ -10,7 +10,9 @@ const PHASE1 = ['Presale Launch: Early birds catch the best prices on $Sponge.']
 
 const PHASE2 = ['DEX Launch: Dive into decentralized exchanges.']
 
-const PHASE3 = ['Krusty Krab Hustle']
+const PHASE3 = [
+  'Farming & Burning: Enhance your holdings with our fun farming and burning strategies.',
+]
 
 const PHASE4 = ['Global Adoption: Drive global mass Adoption of $SWS ']
 
@@ -89,7 +91,7 @@ export const Roadmap = () => {
           <UserItem
             title='Phase 2'
             lists={PHASE2}
-            userName='Jellyfishing Fun'
+            userName='Ocean Splash'
             className='top-[360px] right-[-330px] w-full'
           />
           <UserItem
