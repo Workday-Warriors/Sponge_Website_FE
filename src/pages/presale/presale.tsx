@@ -11,3 +11,5 @@ export const Presale = () => {
     </Layout>
   );
 };
+
+export default Presale;

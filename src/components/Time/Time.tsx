@@ -49,7 +49,7 @@ export const Time = () => {
           <img
             src="./presale-person.png"
             alt=""
-            className=" static xl:absolute -bottom-0 h-[600px] w-[400px] left-40"
+            className=" static xl:absolute -bottom-0 h-[400px] xl:h-[600px] w-[400px] left-40"
           />
         </div>
         <div className=" w-full xl:w-1/2 h-full flex items-center justify-center">
