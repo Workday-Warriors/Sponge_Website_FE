@@ -1,5 +1,11 @@
-import { JoinNow, PresaleAbout, Time, Welcome } from "../../components";
-import { Layout } from "../../layout";
+import {
+  JoinNow,
+  PresaleAbout,
+  ReasonToHave,
+  Time,
+  Welcome,
+} from '../../components'
+import { Layout } from '../../layout'
 
 export const Presale = () => {
   return (
@@ -8,8 +14,9 @@ export const Presale = () => {
       <PresaleAbout />
       <Time />
       <JoinNow />
+      <ReasonToHave />
     </Layout>
-  );
-};
+  )
+}
 
-export default Presale;
+export default Presale
