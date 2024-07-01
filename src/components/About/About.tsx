@@ -2,13 +2,14 @@ import { Button } from '../../common'
 import { PlayIcon } from '../../icons'
 import styles from './About.module.css'
 import gsap from 'gsap'
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)
 
 export const About = () => {
   const container = useRef<HTMLDivElement>(null)
   const aboutVideo = useRef<HTMLDivElement>(null)
+  const [isPlay, setIsPlay] = useState(false)
 
   useEffect(() => {
     gsap.fromTo(
@@ -74,17 +75,32 @@ export const About = () => {
           <div ref={aboutVideo} className=' w-full pb-40 xl:pb-0 xl:w-[40%]'>
             <div className='py-[30px] bg-[#F3D583] px-[31px] rounded-[27px] bg-['>
               <div className='w-full relative'>
-                <img
-                  className='w-full rounded-[13px]'
-                  src='./about-video-img.png'
-                  alt=''
-                />
-                <button className='absolute top-1/2 -translate-y-1/2 text-white left-1/2 -translate-x-1/2'>
-                  <PlayIcon />
-                </button>
-                <div
-                  className={`m-auto rotate-[3.73deg] w-[80%] h-[34.52px] ${styles.about_card_shadow} `}
-                ></div>
+                {isPlay ? (
+                  <video
+                    src='./video.mp4'
+                    muted
+                    autoPlay
+                    loop
+                    className='!w-full h-[285px] object-fill rounded-[13px]'
+                  ></video>
+                ) : (
+                  <>
+                    <img
+                      className='w-full rounded-[13px]'
+                      src='./about-video-img.png'
+                      alt=''
+                    />
+                    <button
+                      onClick={() => setIsPlay(true)}
+                      className='absolute top-1/2 -translate-y-1/2 text-white left-1/2 -translate-x-1/2'
+                    >
+                      <PlayIcon />
+                    </button>
+                    <div
+                      className={`m-auto rotate-[3.73deg] w-[80%] h-[34.52px] ${styles.about_card_shadow} `}
+                    ></div>
+                  </>
+                )}
               </div>
               <h1 className=' text-[20px] xl:text-[40px] luckiest text-[#AF6D27] my-5 xl:my-[90px] font-normal xl:leading-10 text-center'>
                 The Wolf of Wallstreet PETRIC one

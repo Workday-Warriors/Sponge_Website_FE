@@ -57,11 +57,11 @@ export const UserItem = ({
             {userName}
           </p>
         </div>
-        <div className='pt-5 w-[95%]'>
+        <div className='pt-5'>
           {lists.map((list: string, index: number) => (
             <p
               key={index}
-              className='flex gap-x-[13px] text-white paytone items-center text-[16px] font-normal leading-[27.92px] text-left '
+              className='flex w-full xl:w-[60%] gap-x-[13px] text-white paytone items-center text-[16px] font-normal leading-[27.92px] text-left '
             >
               {list}
             </p>
