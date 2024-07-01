@@ -161,7 +161,7 @@ export const Time = () => {
                 <p className='text-[#F9EFCB] paytone text-justify text-[14px] xl:text-base not-italic font-normal leading-[normal]'>
                   Presale Address - Solana
                 </p>
-                <button className='py-2 px-5 xl:px-9 rounded-[16px] text-[#231F20] text-xs not-italic font-bold leading-[normal] bg-[#CFA53C]'>
+                <button className='py-2  transition-all duration-500 hover:bg-[#070707] hover:text-white cursor-none px-5 xl:px-9 rounded-[16px] text-[#231F20] text-xs not-italic font-bold leading-[normal] bg-[#CFA53C]'>
                   Copy
                 </button>
               </div>
@@ -170,7 +170,7 @@ export const Time = () => {
         </div>
       </div>
       <div
-        className={`${styles.blur} w-full h-[70px] xl:h-[113px] absolute -bottom-10 `}
+        className={`${styles.blur} w-[150%] translate-x-[-20%] h-[70px] xl:h-[113px] absolute -bottom-10 `}
       ></div>
     </section>
   )
