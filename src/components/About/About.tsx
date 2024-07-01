@@ -81,7 +81,7 @@ export const About = () => {
                     muted
                     autoPlay
                     loop
-                    className='!w-full h-[285px] object-fill rounded-[13px]'
+                    className='!w-full h-[285px] object-cover rounded-[13px]'
                   ></video>
                 ) : (
                   <>

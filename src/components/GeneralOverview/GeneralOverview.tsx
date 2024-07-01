@@ -46,21 +46,21 @@ export const GeneralOverview = () => {
       <div className='w-full flex flex-col xl:flex-row items-end h-full container px-5 xl:px-0 '>
         <div
           ref={person}
-          className=' w-full  xl:w-1/2 h-full flex items-end pb-10'
+          className=' w-full translate-y-[580px] xl:translate-y-0  xl:w-1/2 h-full flex items-end pb-10'
         >
           <img src='./general.png' alt='' />
         </div>
         <div
           ref={card}
-          className=' w-full xl:w-1/2 h-full flex justify-center xl:justify-end items-end pb-20'
+          className=' w-full xl:w-1/2 h-full z-[99] flex justify-center xl:justify-end items-end pb-20'
         >
           <div
-            className={`h-[614px] translate-y-20 xl:translate-y-0 pb-20 flex items-center justify-center flex-col relative w-[80%] xl:w-[798px] ${styles.bg} `}
+            className={`h-[714px] translate-y-[350px] xl:translate-y-0 pb-20 flex items-center justify-center flex-col relative w-[80%] xl:w-[798px] ${styles.bg} `}
           >
-            <p className=' text-[10px] mt-10 xl:mt-0 xl:text-[20px] w-[40%] xl:w-[50%] font-normal paytone xl:leading-[23.83px] tracking-[-0.02em] text-center'>
+            <p className=' text-[8px] mt-10 xl:mt-0 xl:text-[20px] w-[40%] xl:w-[50%] font-normal paytone xl:leading-[23.83px] tracking-[-0.02em] text-center'>
               Hiya, pals! Welcome to my pineapple under the sea!
             </p>
-            <p className=' text-[10px] xl:text-[20px] xl:my-[13px] text-[#FFFFFF] w-[55%] paytone font-normal xl:leading-[25.23px] tracking-[-0.03em] text-center'>
+            <p className=' text-[8px] xl:text-[20px] xl:my-[13px] text-[#FFFFFF] w-[55%] paytone font-normal xl:leading-[25.23px] tracking-[-0.03em] text-center'>
               I’m Spongebob, here to give you a cheerful overview of our
               fantastic memecoin project.
             </p>
