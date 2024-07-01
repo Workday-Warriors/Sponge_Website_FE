@@ -52,7 +52,7 @@ export const Airdrop = () => {
   }, []);
 
   return (
-    <section className="w-full min-h-screen xl:h-[1308px] relative">
+    <section className="w-full min-h-screen xl:h-[1409px] relative">
       <div className="w-full flex flex-col px-5 xl:px-0 xl:flex-row h-full container">
         <div className="relative w-full pt-20 xl:pt-0 xl:w-1/2 h-full flex flex-col items-center justify-center">
           <div ref={shell1} className="w-full xl:w-[462px] relative">
@@ -83,19 +83,19 @@ export const Airdrop = () => {
         </div>
         <div
           ref={person}
-          className=" w-full h-[600px] xl:h-auto xl:w-1/2 justify-center flex items-end pb-8"
+          className=" w-full relative  h-[600px] xl:h-full xl:w-1/2 justify-center flex items-end pb-8"
         >
           <img
             src="./air-drop-img-1.png"
             alt=""
-            className=" w-[900px] xl:h-auto h-[700px] "
+            className=" w-full xl:w-[900px] absolute bottom-0 xl:bottom-[-35px]  xl:h-[800px] "
           />
         </div>
       </div>
       <img
         src="./airdrop-bg.png"
         alt=""
-        className="z-[-1] w-full h-full absolute top-0  object-cover xl:object-fill"
+        className="z-[-1] w-full h-full absolute top-0  object-cover xl:object-right-bottom"
       />
       <div
         className={`w-full h-[110px] absolute -bottom-10 ${styles.blur}`}

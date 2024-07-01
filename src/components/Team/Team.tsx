@@ -44,7 +44,7 @@ export const Team = () => {
       />
       <div
         ref={person}
-        className="absolute w-[500px] top-[-270px] md:top-[-170px] xl:top-[-150px] left-[38%] xl:left-[43%] -translate-x-1/2 "
+        className="absolute w-[800px] top-[-480px] md:top-[-300px] xl:top-[-300px] left-[30%] xl:left-[43%] -translate-x-1/2 "
       >
         <img src="./team-img-1.png" alt="" className="w-full h-full" />
       </div>
