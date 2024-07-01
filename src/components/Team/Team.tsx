@@ -58,7 +58,7 @@ export const Team = () => {
         <img src='./team.png' alt='' className='w-full xl:w-[901px]' />
       </div>
       <div
-        className={`w-full h-[81px] ${styles.blur} absolute -bottom-5 `}
+        className={`w-[150%] translate-x-[-20%] h-[79px] ${styles.blur} bg-[red] absolute -bottom-5 `}
       ></div>
     </section>
   )
